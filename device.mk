@@ -49,9 +49,9 @@ PRODUCT_PACKAGES += \
     android.hardware.keymaster@3.0-impl \
     android.hardware.keymaster@3.0-service
 
-# Rootdir
+# Ramdisk
 PRODUCT_PACKAGES += \
-    init.recovery.qcom.rc \
+    fstab.qcom \
     init.vince.rc
 
 # Soong namespaces
